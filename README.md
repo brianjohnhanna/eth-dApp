@@ -25,7 +25,7 @@ The easiest way to test this is to use a test ETH network: this project is confi
 1. Under "Keys" copy your project ID and put in your `.env` file under the `INFURA_PROJECT_ID` variable
 1. Add your wallet address to the "Allowlist Etherum Addresses"
 1. Update the `WALLET_PRIVATE_KEY` environment variable with your wallet's key (the same one used in the last step)
-1. Run `npx hardhat run scripts/deploy.js --network ropsten` to deploy your smart contract. Take note of the contract address and save it to the `REACT_APP_SMART_CONTRACT_ADDRESS` environment variable.
+1. Run `npx hardhat run scripts/deploy.js --network ropsten` to deploy your smart contract. Take note of the contract address and save it to the `REACT_APP_GREETER_CONTRACT_ADDRESS` environment variable.
 
 You should now be able to see your smart contract on the  [Etherscan Ropsten Testnet Explorer](https://ropsten.etherscan.io) by searching for the contract address.
 
