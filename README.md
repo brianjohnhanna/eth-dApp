@@ -1,6 +1,6 @@
-# Ethereum Full Stack Development
+# Simple Ethereum dApp
 
-A full-stack application for interacting with the Ethereum blockchain. 
+A full-stack application for interacting with the Ethereum blockchain via smart contracts.
 
 ## Components and Architecture
 ### Smart Contracts
